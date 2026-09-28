@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madalitso Mwamba | ICT251 Web Technologies</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Madalitso Mwamba</h1>
+        <p>2nd Year Bachelor of Science in Cyber Security Student</p>
+        <p>Mulungushi University</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#hobbies">My Hobbies</a>
+        <a href="#learning">My Learning Plan</a>
+        <a href="#photos">My Photos</a>
+        <a href="#media">My Media</a>
+        <a href="#contact">Contact</a>
+        <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development"
+           target="_blank">
+            Learn Web Development
+        </a>
+    </nav>
+
+    <main>
+
+        <!-- About Me -->
+        <section id="about" class="content-section">
+            <h2>About Me</h2>
+
+            <p>
+                My name is Madalitso Mwamba, and I am a second-year student
+                at Mulungushi University studying for a Bachelor of Science
+                in Cyber Security. I am interested in technology, computers,
+                programming and learning how digital systems work. As a
+                Cyber Security student, I want to develop practical technical
+                skills that will help me understand websites, software,
+                networks and information security. I am currently learning
+                web technologies and I hope to improve my ability to design
+                and develop useful websites.
+            </p>
+        </section>
+
+        <!-- Hobbies -->
+        <section id="hobbies" class="content-section">
+            <h2>My Hobbies</h2>
+
+            <ul>
+                <li>Coding and learning technology</li>
+                <li>Gaming</li>
+                <li>Listening to music</li>
+            </ul>
+        </section>
+
+        <!-- Learning Plan -->
+        <section id="learning" class="content-section">
+            <h2>My Learning Plan</h2>
+
+            <p>
+                These are some of the steps I will take to improve my web
+                development skills:
+            </p>
+
+            <ol>
+                <li>Practise HTML and learn how to structure web pages correctly.</li>
+                <li>Learn CSS and practise creating attractive responsive designs.</li>
+                <li>Learn JavaScript and use it to make websites interactive.</li>
+                <li>Build small websites regularly to improve my practical skills.</li>
+            </ol>
+
+            <table>
+                <caption>My Weekly Web Learning Plan</caption>
+
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Topic</th>
+                        <th>Practice Task</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>HTML</td>
+                        <td>Practise page structure and semantic elements</td>
+                    </tr>
+
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>CSS</td>
+                        <td>Practise layouts, colours and responsive design</td>
+                    </tr>
+
+                    <tr>
+                        <td>Friday</td>
+                        <td>JavaScript</td>
+                        <td>Practise basic interactivity and events</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Photos -->
+        <section id="photos" class="content-section">
+            <h2>My Photos</h2>
+
+            <div class="photo-gallery">
+
+                <figure>
+                    <img src="images/photo1.jpg"
+                         alt="Madalitso Mwamba studying at university">
+                    <figcaption>Studying and developing my academic skills.</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/photo2.jpg"
+                         alt="Madalitso Mwamba working with technology">
+                    <figcaption>Exploring technology and computer skills.</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/photo3.jpg"
+                         alt="Madalitso Mwamba enjoying one of his hobbies">
+                    <figcaption>Enjoying my hobbies and free time.</figcaption>
+                </figure>
+
+            </div>
+        </section>
+
+        <!-- Media -->
+        <section id="media" class="content-section">
+            <h2>My Media</h2>
+
+            <h3>My Introduction Video</h3>
+
+            <video controls>
+                <source src="videos/intro.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+
+            <p>
+                In this video, I introduce myself as Madalitso Mwamba, a
+                second-year Bachelor of Science in Cyber Security student
+                at Mulungushi University. I also explain one of the web
+                development skills I hope to learn.
+            </p>
+
+            <h3>My Audio Introduction</h3>
+
+            <audio controls>
+                <source src="videos/voice.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <p>
+                This audio recording explains one of my hobbies and my
+                interest in studying web technologies.
+            </p>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="content-section">
+            <h2>Contact Me</h2>
+
+            <p>
+                This contact form is a browser demonstration only.
+                It does not send or store any information.
+            </p>
+
+            <form action="#" method="post">
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="topic">Topic:</label>
+                <select id="topic" name="topic">
+                    <option value="web-development">Web Development</option>
+                    <option value="cyber-security">Cyber Security</option>
+                    <option value="general">General</option>
+                </select>
+
+                <label for="message">Message:</label>
+                <textarea id="message"
+                          name="message"
+                          rows="5"
+                          required></textarea>
+
+                <button type="submit">Submit</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            &copy; 2026 Madalitso Mwamba | ICT251 Web Technologies |
+            Mulungushi University
+        </p>
+    </footer>
+
+</body>
+</html>

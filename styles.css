@@ -1,0 +1,265 @@
+/* General page styling */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7fb;
+    color: #202124;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #111827, #263b63);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 42px;
+}
+
+header p {
+    margin: 8px 0;
+    font-size: 18px;
+}
+
+/* Navigation */
+nav {
+    background-color: #111827;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 5px 8px;
+    padding: 8px 12px;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: #4f46e5;
+}
+
+/* Main content */
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+.content-section {
+    background-color: white;
+    padding: 30px;
+    margin: 25px 0;
+    border: 1px solid #d8dee9;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.content-section h2 {
+    color: #263b63;
+    border-bottom: 3px solid #4f46e5;
+    padding-bottom: 8px;
+}
+
+.content-section h3 {
+    color: #374151;
+    margin-top: 25px;
+}
+
+/* Unique ID selector required by the assignment */
+#hobbies {
+    background-color: #f8f9ff;
+}
+
+/* Lists */
+ul,
+ol {
+    padding-left: 25px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+caption {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+th,
+td {
+    border: 1px solid #cbd5e1;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #263b63;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f5f9;
+}
+
+/* Photo gallery */
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+figure {
+    width: 30%;
+    min-width: 220px;
+    margin: 0;
+}
+
+figure img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #d8dee9;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+/* Video and audio */
+video {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+audio {
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* Contact form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #4f46e5;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover,
+button:focus {
+    background-color: #3730a3;
+}
+
+/* Footer */
+footer {
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    margin-top: 40px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 700px) {
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    nav {
+        position: static;
+    }
+
+    nav a {
+        display: block;
+        margin: 4px 0;
+    }
+
+    main {
+        width: 94%;
+    }
+
+    .content-section {
+        padding: 20px;
+    }
+
+    figure {
+        width: 100%;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+}
