@@ -1,214 +1,258 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Madalitso Mwamba | ICT251 Web Technologies</title>
+    <title>My Student Website | ICT251</title>
 
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Madalitso Mwamba</h1>
-        <p>2nd Year Bachelor of Science in Cyber Security Student</p>
-        <p>Mulungushi University</p>
+    <header class="site-header">
+        <div class="container">
+            <h1>My Student Website</h1>
+            <p>ICT251 Web Technologies | Activity 2</p>
+        </div>
     </header>
 
-    <nav>
-        <a href="#about">About Me</a>
-        <a href="#hobbies">My Hobbies</a>
-        <a href="#learning">My Learning Plan</a>
-        <a href="#photos">My Photos</a>
-        <a href="#media">My Media</a>
-        <a href="#contact">Contact</a>
-        <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development"
-           target="_blank">
-            Learn Web Development
-        </a>
+    <nav class="site-nav">
+        <div class="container nav-links">
+            <a href="#about">About Me</a>
+            <a href="#hobbies">My Hobbies</a>
+            <a href="#learning-plan">Learning Plan</a>
+            <a href="#photos">My Photos</a>
+            <a href="#media">My Media</a>
+            <a href="#contact">Contact</a>
+        </div>
     </nav>
 
-    <main>
+    <main class="container">
 
-        <!-- About Me -->
         <section id="about" class="content-section">
             <h2>About Me</h2>
-
             <p>
-                My name is Madalitso Mwamba, and I am a second-year student
-                at Mulungushi University studying for a Bachelor of Science
-                in Cyber Security. I am interested in technology, computers,
-                programming and learning how digital systems work. As a
-                Cyber Security student, I want to develop practical technical
-                skills that will help me understand websites, software,
-                networks and information security. I am currently learning
-                web technologies and I hope to improve my ability to design
-                and develop useful websites.
+                Hello! I am a Computer Science student at Mulungushi
+                University in Zambia. I am interested in technology,
+                computers and how websites are created. My studies are
+                helping me develop problem-solving, programming and
+                communication skills. I believe that consistent practice
+                is important for learning new things. This personal
+                website is part of my ICT251 Web Technologies activity.
+                Through this project, I am learning how to structure
+                web pages using HTML and style them using CSS. My goal
+                is to become confident in creating attractive, useful
+                and responsive websites that work on computers and phones.
             </p>
         </section>
 
-        <!-- Hobbies -->
         <section id="hobbies" class="content-section">
             <h2>My Hobbies</h2>
-
+            <p>Here are three activities I enjoy in my free time:</p>
             <ul>
-                <li>Coding and learning technology</li>
-                <li>Gaming</li>
                 <li>Listening to music</li>
+                <li>Playing games and watching movies</li>
+                <li>Learning about computers and coding</li>
             </ul>
         </section>
 
-        <!-- Learning Plan -->
-        <section id="learning" class="content-section">
+        <section id="learning-plan" class="content-section">
             <h2>My Learning Plan</h2>
-
             <p>
-                These are some of the steps I will take to improve my web
-                development skills:
+                I will improve my web development skills through regular
+                practice, research and small personal projects.
             </p>
 
             <ol>
-                <li>Practise HTML and learn how to structure web pages correctly.</li>
-                <li>Learn CSS and practise creating attractive responsive designs.</li>
-                <li>Learn JavaScript and use it to make websites interactive.</li>
-                <li>Build small websites regularly to improve my practical skills.</li>
+                <li>Practise HTML headings, paragraphs, links, lists and forms.</li>
+                <li>Learn CSS colours, selectors, spacing and page layouts.</li>
+                <li>Build and test responsive websites on different screens.</li>
+                <li>Study JavaScript to add interactive features to websites.</li>
             </ol>
 
-            <table>
-                <caption>My Weekly Web Learning Plan</caption>
+            <h3>Weekly Web Learning Schedule</h3>
 
-                <thead>
-                    <tr>
-                        <th>Day</th>
-                        <th>Topic</th>
-                        <th>Practice Task</th>
-                    </tr>
-                </thead>
+            <div class="table-wrapper">
+                <table>
+                    <caption>My Weekly Web Technologies Learning Plan</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Day</th>
+                            <th scope="col">Topic</th>
+                            <th scope="col">Practice Task</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday</td>
+                            <td>HTML</td>
+                            <td>Create a page with headings, lists and links.</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>CSS</td>
+                            <td>Style a page with colours, borders and spacing.</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>Responsive Design</td>
+                            <td>Test a page on a narrow screen.</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday</td>
+                            <td>Project Practice</td>
+                            <td>Review and improve my personal website.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
-                <tbody>
-                    <tr>
-                        <td>Monday</td>
-                        <td>HTML</td>
-                        <td>Practise page structure and semantic elements</td>
-                    </tr>
-
-                    <tr>
-                        <td>Wednesday</td>
-                        <td>CSS</td>
-                        <td>Practise layouts, colours and responsive design</td>
-                    </tr>
-
-                    <tr>
-                        <td>Friday</td>
-                        <td>JavaScript</td>
-                        <td>Practise basic interactivity and events</td>
-                    </tr>
-                </tbody>
-            </table>
+            <p>
+                Learning resource:
+                <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development"
+                   target="_blank" rel="noopener noreferrer">
+                    Explore MDN Web Development
+                </a>
+            </p>
         </section>
 
-        <!-- Photos -->
         <section id="photos" class="content-section">
             <h2>My Photos</h2>
+            <p>
+                These photographs represent my student life, personal
+                interests and learning journey.
+            </p>
 
             <div class="photo-gallery">
-
                 <figure>
                     <img src="images/photo1.jpg"
-                         alt="Madalitso Mwamba studying at university">
-                    <figcaption>Studying and developing my academic skills.</figcaption>
+                         alt="Photograph representing my student life">
+                    <figcaption>My student life</figcaption>
                 </figure>
 
                 <figure>
                     <img src="images/photo2.jpg"
-                         alt="Madalitso Mwamba working with technology">
-                    <figcaption>Exploring technology and computer skills.</figcaption>
+                         alt="Photograph representing my hobbies">
+                    <figcaption>My hobbies and interests</figcaption>
                 </figure>
 
                 <figure>
                     <img src="images/photo3.jpg"
-                         alt="Madalitso Mwamba enjoying one of his hobbies">
-                    <figcaption>Enjoying my hobbies and free time.</figcaption>
+                         alt="Photograph representing my learning journey">
+                    <figcaption>My learning journey</figcaption>
                 </figure>
-
             </div>
         </section>
 
-        <!-- Media -->
         <section id="media" class="content-section">
             <h2>My Media</h2>
 
-            <h3>My Introduction Video</h3>
+            <div class="media-item">
+                <h3>My Video Introduction</h3>
+                <p>
+                    Watch my short introduction about myself, my programme
+                    and the web development skill I hope to learn.
+                </p>
 
-            <video controls>
-                <source src="videos/intro.mp4" type="video/mp4">
-                Your browser does not support the video element.
-            </video>
+                <video controls preload="metadata">
+                    <source src="videos/intro.mp4" type="video/mp4">
+                    Your browser does not support video playback.
+                </video>
 
-            <p>
-                In this video, I introduce myself as Madalitso Mwamba, a
-                second-year Bachelor of Science in Cyber Security student
-                at Mulungushi University. I also explain one of the web
-                development skills I hope to learn.
-            </p>
+                <p class="media-summary">
+                    <strong>Video summary:</strong>
+                    My introduction gives my name, programme and one
+                    web development skill I want to improve.
+                </p>
+            </div>
 
-            <h3>My Audio Introduction</h3>
+            <div class="media-item">
+                <h3>My Audio Recording</h3>
+                <p>
+                    Listen to my recording about a hobby or my interest
+                    in studying Web Technologies.
+                </p>
 
-            <audio controls>
-                <source src="videos/voice.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
+                <audio controls preload="metadata">
+                    <source src="videos/voice.mp3" type="audio/mpeg">
+                    Your browser does not support audio playback.
+                </audio>
 
-            <p>
-                This audio recording explains one of my hobbies and my
-                interest in studying web technologies.
-            </p>
+                <p class="media-summary">
+                    <strong>Audio description:</strong>
+                    This recording describes one of my hobbies or explains
+                    why I want to improve my web development skills.
+                </p>
+            </div>
         </section>
 
-        <!-- Contact -->
         <section id="contact" class="content-section">
             <h2>Contact Me</h2>
-
             <p>
-                This contact form is a browser demonstration only.
-                It does not send or store any information.
+                Complete the form below to demonstrate how visitors
+                can enter their details and write a message.
             </p>
 
-            <form action="#" method="post">
+            <form id="contact-form" class="contact-form" action="#">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name"
+                           autocomplete="name" required>
+                </div>
 
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email"
+                           autocomplete="email" required>
+                </div>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <div class="form-group">
+                    <label for="topic">Message Topic</label>
+                    <select id="topic" name="topic">
+                        <option value="general">General Enquiry</option>
+                        <option value="studies">Studies</option>
+                        <option value="web">Web Development</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
 
-                <label for="topic">Topic:</label>
-                <select id="topic" name="topic">
-                    <option value="web-development">Web Development</option>
-                    <option value="cyber-security">Cyber Security</option>
-                    <option value="general">General</option>
-                </select>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message"
+                              rows="5" required></textarea>
+                </div>
 
-                <label for="message">Message:</label>
-                <textarea id="message"
-                          name="message"
-                          rows="5"
-                          required></textarea>
+                <button type="submit">Submit Message</button>
 
-                <button type="submit">Submit</button>
+                <p class="form-note">
+                    This is a browser demonstration only. No information
+                    is sent to a server or saved.
+                </p>
 
+                <p id="form-feedback" class="form-feedback"
+                   role="status" aria-live="polite"></p>
             </form>
         </section>
 
     </main>
 
-    <footer>
-        <p>
-            &copy; 2026 Madalitso Mwamba | ICT251 Web Technologies |
-            Mulungushi University
-        </p>
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 My Student Website</p>
+            <p>School of Engineering and Technology | Computer Science Department</p>
+            <p>ICT251 Web Technologies - Activity 2</p>
+        </div>
     </footer>
+
+    <script>
+        document.getElementById("contact-form").addEventListener("submit", function (event) {
+            event.preventDefault();
+            document.getElementById("form-feedback").textContent =
+                "Demonstration successful. Your message has not been sent or saved.";
+        });
+    </script>
 
 </body>
 </html>
