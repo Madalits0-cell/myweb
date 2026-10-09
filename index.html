@@ -4,255 +4,319 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Student Website | ICT251</title>
-
-    <link rel="stylesheet" href="./styles.css">
+    <meta name="description" content="The personal website of Madalitso Mwamba, a Cyber Security student at Mulungushi University.">
+    <title>Madalitso Mwamba | Personal Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
 </head>
-
 <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
 
     <header class="site-header">
         <div class="container">
-            <h1>My Student Website</h1>
-            <p>ICT251 Web Technologies | Activity 2</p>
+            <p class="eyebrow">My Student Portfolio</p>
+            <h1>Madalitso Mwamba</h1>
+            <p class="header-subtitle">
+                2nd Year Bachelor of Science in Cyber Security Student
+            </p>
+            <p class="university">Mulungushi University · Zambia</p>
+
+            <nav class="main-nav" aria-label="Main navigation">
+                <a href="#about">About Me</a>
+                <a href="#hobbies">Hobbies</a>
+                <a href="#learning">Learning Plan</a>
+                <a href="#photos">Photos</a>
+                <a href="#media">Media</a>
+                <a href="#projects">Projects &amp; Skills</a>
+                <a href="#contact">Contact</a>
+                <button type="button" id="theme-toggle"
+                    aria-pressed="false">Switch to Dark Mode</button>
+            </nav>
         </div>
     </header>
 
-    <nav class="site-nav">
-        <div class="container nav-links">
-            <a href="#about">About Me</a>
-            <a href="#hobbies">My Hobbies</a>
-            <a href="#learning-plan">Learning Plan</a>
-            <a href="#photos">My Photos</a>
-            <a href="#media">My Media</a>
-            <a href="#contact">Contact</a>
-        </div>
-    </nav>
-
-    <main class="container">
-
+    <main id="main-content" class="container">
         <section id="about" class="content-section">
+            <p class="section-label">Introduction</p>
             <h2>About Me</h2>
             <p>
-                Hello! I am a Computer Science student at Mulungushi
-                University in Zambia. I am interested in technology,
-                computers and how websites are created. My studies are
-                helping me develop problem-solving, programming and
-                communication skills. I believe that consistent practice
-                is important for learning new things. This personal
-                website is part of my ICT251 Web Technologies activity.
-                Through this project, I am learning how to structure
-                web pages using HTML and style them using CSS. My goal
-                is to become confident in creating attractive, useful
-                and responsive websites that work on computers and phones.
+                My name is Madalitso Mwamba, and I am a second-year Bachelor
+                of Science in Cyber Security student at Mulungushi University
+                in Zambia. I am interested in computers, technology, and
+                understanding how digital systems work. Through my studies,
+                I am developing my knowledge of programming, web development,
+                computer systems, and information security. I enjoy learning
+                practical skills and applying what I learn to projects.
+                My goal is to continue improving my technical abilities,
+                become a responsible technology professional, and use my
+                knowledge to help create secure and useful digital solutions.
             </p>
         </section>
 
         <section id="hobbies" class="content-section">
+            <p class="section-label">Outside the Classroom</p>
             <h2>My Hobbies</h2>
-            <p>Here are three activities I enjoy in my free time:</p>
-            <ul>
-                <li>Listening to music</li>
-                <li>Playing games and watching movies</li>
-                <li>Learning about computers and coding</li>
-            </ul>
+            <div class="card-grid">
+                <article class="info-card">
+                    <h3>Coding and Technology</h3>
+                    <p>
+                        I enjoy learning how websites and computer programs
+                        are built and experimenting with new technology.
+                    </p>
+                </article>
+                <article class="info-card">
+                    <h3>Gaming</h3>
+                    <p>
+                        Gaming gives me a chance to relax, explore different
+                        worlds, and challenge my problem-solving skills.
+                    </p>
+                </article>
+                <article class="info-card">
+                    <h3>Listening to Music</h3>
+                    <p>
+                        I enjoy listening to music during my free time,
+                        especially when relaxing or taking a break from study.
+                    </p>
+                </article>
+            </div>
         </section>
 
-        <section id="learning-plan" class="content-section">
+        <section id="learning" class="content-section">
+            <p class="section-label">Personal Development</p>
             <h2>My Learning Plan</h2>
             <p>
-                I will improve my web development skills through regular
-                practice, research and small personal projects.
+                I am working towards becoming more confident in building
+                websites and writing code. My learning plan is to practise
+                consistently, complete small projects, and review my progress.
             </p>
 
+            <h3>My learning steps</h3>
             <ol>
-                <li>Practise HTML headings, paragraphs, links, lists and forms.</li>
-                <li>Learn CSS colours, selectors, spacing and page layouts.</li>
-                <li>Build and test responsive websites on different screens.</li>
-                <li>Study JavaScript to add interactive features to websites.</li>
+                <li>Learn HTML structure and create accessible web pages.</li>
+                <li>Practise CSS layouts, responsive design, and styling.</li>
+                <li>Use JavaScript to validate forms and make pages interactive.</li>
+                <li>Build projects, test them, and publish them online.</li>
             </ol>
 
-            <h3>Weekly Web Learning Schedule</h3>
-
+            <h3>Weekly Study Schedule</h3>
             <div class="table-wrapper">
                 <table>
-                    <caption>My Weekly Web Technologies Learning Plan</caption>
+                    <caption>Example weekly web development practice plan</caption>
                     <thead>
                         <tr>
                             <th scope="col">Day</th>
                             <th scope="col">Topic</th>
-                            <th scope="col">Practice Task</th>
+                            <th scope="col">Practice Goal</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>Monday</td>
                             <td>HTML</td>
-                            <td>Create a page with headings, lists and links.</td>
+                            <td>Build and organise page sections.</td>
                         </tr>
                         <tr>
                             <td>Wednesday</td>
                             <td>CSS</td>
-                            <td>Style a page with colours, borders and spacing.</td>
+                            <td>Practise layouts and responsive styling.</td>
                         </tr>
                         <tr>
                             <td>Friday</td>
-                            <td>Responsive Design</td>
-                            <td>Test a page on a narrow screen.</td>
-                        </tr>
-                        <tr>
-                            <td>Saturday</td>
-                            <td>Project Practice</td>
-                            <td>Review and improve my personal website.</td>
+                            <td>JavaScript</td>
+                            <td>Practise events, functions, and form validation.</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-
-            <p>
-                Learning resource:
-                <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development"
-                   target="_blank" rel="noopener noreferrer">
-                    Explore MDN Web Development
-                </a>
-            </p>
         </section>
 
         <section id="photos" class="content-section">
+            <p class="section-label">Memories</p>
             <h2>My Photos</h2>
-            <p>
-                These photographs represent my student life, personal
-                interests and learning journey.
-            </p>
+            <p>Use the buttons to browse my personal photo collection.</p>
 
-            <div class="photo-gallery">
-                <figure>
-                    <img src="./photo1.jpg"
-                         alt="Photograph representing my student life">
-                    <figcaption>My student life</figcaption>
+            <div class="gallery-viewer">
+                <figure class="gallery-slide">
+                    <img src="images/photo1.jpg"
+                        alt="Photo one from my personal collection">
+                    <figcaption>Photo 1 — A moment from my collection.</figcaption>
                 </figure>
 
-                <figure>
-                    <img src="./photo2.jpg"
-                         alt="Photograph representing my hobbies">
-                    <figcaption>My hobbies and interests</figcaption>
+                <figure class="gallery-slide" hidden>
+                    <img src="images/photo2.jpg"
+                        alt="Photo two from my personal collection">
+                    <figcaption>Photo 2 — Another personal memory.</figcaption>
                 </figure>
 
-                <figure>
-                    <img src="./photo3.jpg"
-                         alt="Photograph representing my learning journey">
-                    <figcaption>My learning journey</figcaption>
+                <figure class="gallery-slide" hidden>
+                    <img src="images/photo3.jpg"
+                        alt="Photo three from my personal collection">
+                    <figcaption>Photo 3 — One more moment to remember.</figcaption>
                 </figure>
+
+                <div class="gallery-controls">
+                    <button type="button" id="photo-previous">Previous</button>
+                    <span id="photo-counter" aria-live="polite">Photo 1 of 3</span>
+                    <button type="button" id="photo-next">Next</button>
+                </div>
             </div>
         </section>
 
         <section id="media" class="content-section">
+            <p class="section-label">Audio and Video</p>
             <h2>My Media</h2>
 
-            <div class="media-item">
-                <h3>My Video Introduction</h3>
-                <p>
-                    Watch my short introduction about myself, my programme
-                    and the web development skill I hope to learn.
-                </p>
+            <div class="media-grid">
+                <article class="media-card">
+                    <h3>Introduction Video</h3>
+                    <video controls preload="metadata">
+                        <source src="videos/intro.mp4" type="video/mp4">
+                        Your browser does not support HTML video.
+                    </video>
+                    <p class="media-summary">
+                        Summary: A short video from my personal collection.
+                        Use the video controls to play, pause, or adjust volume.
+                    </p>
+                </article>
 
-                <video controls preload="metadata">
-                    <source src="./intro.mp4" type="video/mp4">
-                    Your browser does not support video playback.
-                </video>
-
-                <p class="media-summary">
-                    <strong>Video summary:</strong>
-                    My introduction gives my name, programme and one
-                    web development skill I want to improve.
-                </p>
+                <article class="media-card">
+                    <h3>Audio Recording</h3>
+                    <audio controls preload="metadata">
+                        <source src="videos/voice.mp3" type="audio/mpeg">
+                        Your browser does not support HTML audio.
+                    </audio>
+                    <p class="media-summary">
+                        Summary: An audio recording from my personal collection.
+                        Use the audio controls to listen to it.
+                    </p>
+                </article>
             </div>
+        </section>
 
-            <div class="media-item">
-                <h3>My Audio Recording</h3>
-                <p>
-                    Listen to my recording about a hobby or my interest
-                    in studying Web Technologies.
-                </p>
+        <section id="projects" class="content-section">
+            <p class="section-label">What I Am Building</p>
+            <h2>Projects and Skills</h2>
+            <p>
+                These examples represent skills I am learning and practising
+                during my studies. I will continue updating this section as
+                I complete more work.
+            </p>
 
-                <audio controls preload="metadata">
-                    <source src="./voice.mp3" type="audio/mpeg">
-                    Your browser does not support audio playback.
-                </audio>
+            <label for="project-search">Search projects and skills</label>
+            <div class="search-controls">
+                <input type="search" id="project-search"
+                    placeholder="Try HTML, CSS, JavaScript..."
+                    aria-describedby="search-message">
+                <button type="button" id="reset-search" class="secondary-button">
+                    Show All
+                </button>
+            </div>
+            <p id="search-message" class="status-message" aria-live="polite">
+                Showing all projects.
+            </p>
 
-                <p class="media-summary">
-                    <strong>Audio description:</strong>
-                    This recording describes one of my hobbies or explains
-                    why I want to improve my web development skills.
-                </p>
+            <div id="project-list" class="card-grid">
+                <article class="info-card project-card">
+                    <h3>Personal Website</h3>
+                    <p>HTML, page structure, semantic elements, and accessibility.</p>
+                    <button type="button" class="details-toggle"
+                        aria-expanded="false">View Details</button>
+                    <div class="project-details" hidden>
+                        <p>
+                            This project brings together page sections, images,
+                            media, navigation, and accessible HTML.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="info-card project-card">
+                    <h3>Responsive Web Design</h3>
+                    <p>CSS, the box model, flexible layouts, and media queries.</p>
+                    <button type="button" class="details-toggle"
+                        aria-expanded="false">View Details</button>
+                    <div class="project-details" hidden>
+                        <p>
+                            The website uses reusable styling and responsive
+                            rules to improve its layout on phones and computers.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="info-card project-card">
+                    <h3>Interactive Web Features</h3>
+                    <p>JavaScript events, form validation, and DOM updates.</p>
+                    <button type="button" class="details-toggle"
+                        aria-expanded="false">View Details</button>
+                    <div class="project-details" hidden>
+                        <p>
+                            JavaScript adds contact-form validation and preview,
+                            a theme switch, project search, and expandable details.
+                        </p>
+                    </div>
+                </article>
             </div>
         </section>
 
         <section id="contact" class="content-section">
+            <p class="section-label">Get in Touch</p>
             <h2>Contact Me</h2>
             <p>
-                Complete the form below to demonstrate how visitors
-                can enter their details and write a message.
+                Use this form to practise entering and validating contact details.
+                It is a browser demonstration only and does not send a message.
             </p>
 
-            <form id="contact-form" class="contact-form" action="#">
-                <div class="form-group">
-                    <label for="name">Full Name</label>
+            <form id="contact-form" novalidate>
+                <div class="form-field">
+                    <label for="name">Name</label>
                     <input type="text" id="name" name="name"
-                           autocomplete="name" required>
+                        autocomplete="name" required>
                 </div>
 
-                <div class="form-group">
-                    <label for="email">Email Address</label>
+                <div class="form-field">
+                    <label for="email">Email address</label>
                     <input type="email" id="email" name="email"
-                           autocomplete="email" required>
+                        autocomplete="email" required>
                 </div>
 
-                <div class="form-group">
-                    <label for="topic">Message Topic</label>
+                <div class="form-field">
+                    <label for="topic">Topic</label>
                     <select id="topic" name="topic">
-                        <option value="general">General Enquiry</option>
-                        <option value="studies">Studies</option>
-                        <option value="web">Web Development</option>
-                        <option value="other">Other</option>
+                        <option value="Web Development">Web Development</option>
+                        <option value="Cyber Security">Cyber Security</option>
+                        <option value="General">General</option>
                     </select>
                 </div>
 
-                <div class="form-group">
-                    <label for="message">Your Message</label>
+                <div class="form-field">
+                    <label for="message">Message</label>
                     <textarea id="message" name="message"
-                              rows="5" required></textarea>
+                        rows="5" required></textarea>
                 </div>
 
-                <button type="submit">Submit Message</button>
-
-                <p class="form-note">
-                    This is a browser demonstration only. No information
-                    is sent to a server or saved.
-                </p>
-
-                <p id="form-feedback" class="form-feedback"
-                   role="status" aria-live="polite"></p>
+                <button type="submit">Validate and Preview</button>
+                <p id="form-feedback" class="status-message"
+                    aria-live="polite"></p>
+                <div id="message-preview" class="preview-panel"
+                    aria-live="polite"></div>
             </form>
-        </section>
 
+            <p class="contact-note">
+                Browser demonstration only — no message is sent or stored.
+            </p>
+        </section>
     </main>
 
     <footer class="site-footer">
         <div class="container">
-            <p>&copy; 2026 My Student Website</p>
-            <p>School of Engineering and Technology | Computer Science Department</p>
-            <p>ICT251 Web Technologies - Activity 2</p>
+            <p>&copy; 2026 Madalitso Mwamba · Personal Student Website</p>
+            <p>Built for ICT251 Web Technologies — Activity 3.</p>
+            <p>
+                <a href="https://github.com/Madalits0-cell/myweb"
+                    target="_blank" rel="noopener noreferrer">
+                    View Source on GitHub
+                </a>
+            </p>
         </div>
     </footer>
-
-    <script>
-        document.getElementById("contact-form").addEventListener("submit", function (event) {
-            event.preventDefault();
-            document.getElementById("form-feedback").textContent =
-                "Demonstration successful. Your message has not been sent or saved.";
-        });
-    </script>
-
 </body>
 </html>
